@@ -9,3 +9,6 @@ The application will then carry out k-means clustering for the given data.
 
 **The ini file:**
 - Before starting please configure the ini file. The file contains details on SQL connection and clustering and other features
+
+**The db scripts:**
+- Please run the scripts to create database and relevant tables before running the application
