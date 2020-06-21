@@ -30,6 +30,7 @@ def tokenize_only(text):
 def countTotalTokens():
     dataRecords = []
     dataRecords = GetClusterData.GetDataFromDB()
+    dataRecords = GetClusterData.GetDataFromDB()
     total_tokens = []
     for records in dataRecords:
         filtered_tokens = tokenize_only(records)
